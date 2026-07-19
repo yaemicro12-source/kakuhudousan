@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4
+    ;
+}
+nav{
+    background-color: #09137d;
+    color: #fff;
+    padding: 10px;
+    float:right;
+    width: 25%;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
