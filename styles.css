@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f4f4f4
-    ;
+    background-image:url('head.png');
 }
 nav{
     background-color: #09137d;
@@ -29,6 +29,6 @@ nav ul{
     border: 1px solid #165079;
     border-radius: 25px;
     background-color: #fff;
-    color: #165079;
+    color: #f9fafb;
     font-size: 1em;
 }
