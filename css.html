@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS情報 - 尾黒不動産</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎨 尾黒不動産 - CSS情報ページ</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="main.html">ホーム</a></li>
+            <li><a href="css.html">CSS情報</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h2>CSSについて</h2>
+            <p>CSS（Cascading Style Sheets）は、ウェブページの見た目を装飾するための言語です。このページでは、プロジェクトで使用されているCSSの情報をご紹介します。</p>
+        </div>
+
+        <div class="container">
+            <h2>使用しているスタイル</h2>
+            
+            <h3>📌 共通スタイル</h3>
+            <p>すべての要素に対して、マージンとパディングをリセットし、ボックスモデルを統一しています。</p>
+            <ul style="margin-left: 20px;">
+                <li>* { margin: 0; padding: 0; box-sizing: border-box; }</li>
+            </ul>
+
+            <h3>📌 ボディスタイル</h3>
+            <p>ページ全体の基本的なスタイルを設定しています。</p>
+            <ul style="margin-left: 20px;">
+                <li>フォント: Arial・ヒラギノ角ゴなど（和文・英文対応）</li>
+                <li>行間: 1.6</li>
+                <li>背景色: #f9f9f9（淡いグレー）</li>
+            </ul>
+
+            <h3>📌 ヘッダー</h3>
+            <p>ページの最上部に表示されるヘッダーエリア。</p>
+            <ul style="margin-left: 20px;">
+                <li>背景色: #2c3e50（濃いスレートグレー）</li>
+                <li>テキスト色: 白</li>
+                <li>ボックスシャドウ付き</li>
+            </ul>
+
+            <h3>📌 ナビゲーション</h3>
+            <p>ページ間の移動用メニューです。</p>
+            <ul style="margin-left: 20px;">
+                <li>フレックスレイアウト使用</li>
+                <li>ホバー時に色が変わる（#3498db）</li>
+                <li>背景色: #34495e</li>
+            </ul>
+
+            <h3>📌 ボタンスタイル</h3>
+            <p>インタラクティブな要素のスタイルです。</p>
+            <ul style="margin-left: 20px;">
+                <li>デフォルト色: #3498db（ライトブルー）</li>
+                <li>ホバー色: #2980b9（ダークブルー）</li>
+                <li>角丸: 5px</li>
+                <li>トランジション付きで滑らかに変化</li>
+            </ul>
+
+            <h3>📌 レスポンシブデザイン</h3>
+            <p>モバイルデバイスでも見やすいように、768px以下の画面幅で自動調整されます。</p>
+            <ul style="margin-left: 20px;">
+                <li>ナビゲーションが縦方向に変換</li>
+                <li>フォントサイズが縮小</li>
+                <li>パディングが調整</li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <h2>カラーパレット</h2>
+            <table border="1" style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                <tr style="background-color: #f0f0f0;">
+                    <th style="padding: 10px;">色名</th>
+                    <th style="padding: 10px;">カラーコード</th>
+                    <th style="padding: 10px;">用途</th>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">ダーク</td>
+                    <td style="padding: 10px;">#2c3e50</td>
+                    <td style="padding: 10px;">ヘッダー、フッター</td>
+                </tr>
+                <tr style="background-color: #f9f9f9;">
+                    <td style="padding: 10px;">ミディアムダーク</td>
+                    <td style="padding: 10px;">#34495e</td>
+                    <td style="padding: 10px;">ナビゲーション</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">ライトブルー</td>
+                    <td style="padding: 10px;">#3498db</td>
+                    <td style="padding: 10px;">ボタン、アクセント</td>
+                </tr>
+                <tr style="background-color: #f9f9f9;">
+                    <td style="padding: 10px;">ダークブルー</td>
+                    <td style="padding: 10px;">#2980b9</td>
+                    <td style="padding: 10px;">ホバー時</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="container">
+            <h2>フォント設定</h2>
+            <p>日本語と英語の両方に対応したフォントスタックを使用しています。</p>
+            <ul style="margin-left: 20px;">
+                <li>Arial</li>
+                <li>ヒラギノ角ゴ Pro</li>
+                <li>メイリオ</li>
+                <li>sans-serif（フォールバック）</li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <h2>オススメの使用方法</h2>
+            <p>HTMLファイルで以下のコードを使用して、このスタイルシートを読み込んでください：</p>
+            <pre style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; overflow-x: auto;">
+&lt;link rel="stylesheet" href="style.css"&gt;</pre>
+            <button onclick="alert('CSSの詳細についてはstyle.cssファイルをご覧ください')">詳細を確認</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 尾黒不動産 - CSS情報ページ</p>
+        <p>すべての権利を保有しています。</p>
+    </footer>
+</body>
+</html>
